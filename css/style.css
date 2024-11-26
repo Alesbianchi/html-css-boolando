@@ -6,8 +6,8 @@
 }
 
 main{
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 /* regole header*/
@@ -20,6 +20,25 @@ header{
     z-index: 900;
 }
 
+#main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.first-list {    
+    display: flex;
+    justify-content: flex-start; 
+    min-width: 600px;
+    flex-grow: 1;
+    padding: 0;
+    gap: 5%;  
+    flex-wrap: wrap;
+    background-size: cover;
+}
 
 /* blocchi prodotto*/
 .product-list{
@@ -40,27 +59,37 @@ header{
    /*border: 1px solid black;*/
 }
 
+.contenitore-img{
+    position: relative;
+}
+
+.contenitore-label{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    
+}
+
 .product img{
     max-width: 100%;
 }
 
 /* blocchi discount*/
 .discount-label{
-    padding: 1%;
     background-color: red;
     color: #fff;
-    position: absolute;
-    bottom: 20%;
-    left: 0;  
+    
 }
 
 .sostenibile{
-    padding: 1%;
     background-color: green;
     color: #fff;
+     
+}
+.heart{
     position: absolute;
-    bottom: 20%;
-    right: 60%;  
+    top: 3%;
+    right: 5%;
 }
 
 /*dettagli prodotti*/
@@ -93,5 +122,4 @@ footer{
     height: 150px;
     background-color: black;
     width: 100%;
-
 }
