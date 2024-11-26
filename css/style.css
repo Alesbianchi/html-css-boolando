@@ -12,33 +12,70 @@ main{
 
 /* regole header*/
 header{
-    height: 100px;
-    background-color: red;
+    height: 80px;
+    background-color: orange;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 900;
+    display: flex;  
+    align-items: center;
 }
 
 #main-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    font-weight: bold;
 }
 
 .first-list {    
     display: flex;
-    justify-content: flex-start; 
-    min-width: 600px;
-    flex-grow: 1;
-    padding: 0;
-    gap: 5%;  
+    flex-grow: 1;   
     flex-wrap: wrap;
-    background-size: cover;
+    gap: 2%;   
+    justify-content: flex-start;
+    width: 25%;
 }
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-logo {    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 50%;
+}
+.container-icon {    
+    display: flex;
+    flex-grow: 1;   
+    flex-wrap: wrap;
+    gap: 2%;   
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.logo{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    
+}
+
 
 /* blocchi prodotto*/
 .product-list{
