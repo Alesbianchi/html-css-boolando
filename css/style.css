@@ -73,6 +73,18 @@ header{
 .product img{
     max-width: 100%;
 }
+.img-none{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.product:hover .img-none{
+    display: block;
+}
 
 /* blocchi discount*/
 .discount-label{
@@ -90,6 +102,11 @@ header{
     position: absolute;
     top: 3%;
     right: 5%;
+    font-size: 24px;
+    color: black;
+}
+.contenitore-l {  
+    margin-bottom: 20px;
 }
 
 /*dettagli prodotti*/
