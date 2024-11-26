@@ -26,16 +26,46 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 5%;
 }
 
 .product{
     width: 32%;
     background-color: beige;
     margin-bottom: 20px;
+    background-size: contain;
+    position: relative;
     /* DE BUG*/
-    height: 200px;
-    border: 1px solid black;
+    /*height: 200px;*/
+   /*border: 1px solid black;*/
 }
+
+.product img{
+    max-width: 100%;
+}
+
+/* blocchi discount*/
+
+
+.discount-label{
+    padding: 1%;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    bottom: 5%;
+    left: 0;  
+}
+
+.sostenibile{
+    padding: 1%;
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    bottom: 5%;
+    right: 60%;  
+}
+
+
 
 
 
