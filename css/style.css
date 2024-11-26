@@ -12,7 +12,7 @@ main{
 
 /* regole header*/
 header{
-    height: 150px;
+    height: 100px;
     background-color: red;
     position: fixed;
     top: 0;
@@ -31,12 +31,12 @@ header{
 
 .product{
     width: 32%;
-    background-color: beige;
     margin-bottom: 20px;
     background-size: contain;
     position: relative;
     /* DE BUG*/
     /*height: 200px;*/
+    /*background-color: beige;*/
    /*border: 1px solid black;*/
 }
 
@@ -45,14 +45,12 @@ header{
 }
 
 /* blocchi discount*/
-
-
 .discount-label{
     padding: 1%;
     background-color: red;
     color: #fff;
     position: absolute;
-    bottom: 5%;
+    bottom: 20%;
     left: 0;  
 }
 
@@ -61,11 +59,28 @@ header{
     background-color: green;
     color: #fff;
     position: absolute;
-    bottom: 5%;
+    bottom: 20%;
     right: 60%;  
 }
 
+/*dettagli prodotti*/
+.brand-name{
+    font-size: small;
+}
 
+.detail-brand{
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 
